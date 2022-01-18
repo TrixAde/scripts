@@ -1,6 +1,6 @@
 local WeaponOwnRange = {
- min=1,
- max=5
+ min=999,
+ max=9999999
 }
 
 local DataBase, PlayerData = getrenv()._G.Database, getrenv()._G.PlayerData
