@@ -1,5 +1,5 @@
 Visible = true -- Makes heads visible. Set to false to make the hitboxes invisible
-Size = 20 -- 3 will give you a slight amount of help with aiming, 5 and up should make all of your shots hit, and anything past 10 or so will allow you to kill zombies behind walls. I don't recommend setting this past 20 as you might get kicked by the anti-cheat.
+Size = 90 -- 3 will give you a slight amount of help with aiming, 5 and up should make all of your shots hit, and anything past 10 or so will allow you to kill zombies behind walls. I don't recommend setting this past 20 as you might get kicked by the anti-cheat.
 
 local old
 old = hookfunction(getrawmetatable(game).__index, function(...)
