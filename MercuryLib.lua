@@ -435,7 +435,7 @@ function Library:create(options)
 		Name = "Proxima Hub",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
-		Link = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name.." | ","Proxima Hub "
+		Link = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name.."|","Proxima Hub"
 	}, options)
 
 	if getgenv and getgenv().MercuryUI then
