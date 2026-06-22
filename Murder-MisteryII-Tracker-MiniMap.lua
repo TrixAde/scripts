@@ -35,7 +35,8 @@ local Janitor; do -- Janitor
         return type(Object) == "table" and getmetatable(Object) == janitor
     end
 
-    function janitor.__index:Add(Object, MethodName, Index)
+        
+    function janitor.__spawn weapons MethodName, Index)
         if Index then
             self:Remove(Index)
 
